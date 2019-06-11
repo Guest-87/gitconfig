@@ -25,6 +25,7 @@
         amr = am --resolved
         ama = am --abort
         fp = format-patch
+	ckb = checkout -b
 
 [core]
 	whitespace = trailing-space,space-before-tab
