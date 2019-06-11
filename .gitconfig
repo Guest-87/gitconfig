@@ -1,0 +1,35 @@
+[color]
+        ui = auto
+[user]
+	name = hydrayu
+	email = g800805@gmail.com
+[alias]
+	ck = checkout
+	br = branch
+	st = status
+	cm = commit
+	cmm = commit -m
+        t = log --graph --all --oneline --decorate --abbrev-commit
+        tree = log --graph --all --oneline --decorate --abbrev-commit
+        co = checkout
+        unstage = reset HEAD --
+        undo = reset --soft HEAD~1
+        last = log -l HEAD
+        difflast = diff --cached HEAD^
+        aliases = config --get-regexp alias
+        gcnow = gc --aggressive --prune
+        conflict = diff --name-only --diff-filter=U
+        files = show --pretty="format:" --name-only
+	rej = apply --reject --whitespace=fix
+	aprw = apply --reject --whitespace=fix
+        amr = am --resolved
+        ama = am --abort
+        fp = format-patch
+
+[core]
+	whitespace = trailing-space,space-before-tab
+[apply]
+	whitespace = fix
+[diff]
+	renameLimit = 10000
+
