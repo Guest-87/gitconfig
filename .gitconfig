@@ -33,4 +33,12 @@
 	whitespace = fix
 [diff]
 	renameLimit = 10000
-
+	tool = p4merge
+[merge]
+	tool = p4merge
+[difftool "p4merge"]
+	cmd ='/mnt/c/Program Files/Perforce/p4merge.exe'
+	trustexitcode = false
+[mergetool "p4merge"]
+	cmd ='/mnt/c/Program Files/Perforce/p4merge.exe'
+	trustexitcode = false
