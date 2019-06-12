@@ -42,3 +42,7 @@
 [mergetool "p4merge"]
 	cmd ='/mnt/c/Program Files/Perforce/p4merge.exe'
 	trustexitcode = false
+[mergetool]
+	        prompt = false
+[difftool]
+	        prompt = false
